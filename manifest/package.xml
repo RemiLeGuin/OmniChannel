@@ -32,5 +32,9 @@
         <members>Busy</members>
         <name>ServicePresenceStatus</name>
     </types>
+    <types>
+        <members>OmniChannel</members>
+        <name>Settings</name>
+    </types>
     <version>49.0</version>
 </Package>
