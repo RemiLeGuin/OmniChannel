@@ -1,0 +1,14 @@
+{
+    "orgName": "Omni-Channel",
+    "edition": "Developer",
+    "features": [ "LightningServiceConsole", "ServiceCloud" ],
+    "settings": {
+        "languageSettings": {
+            "enableTranslationWorkbench": true
+        },
+        "omniChannelSettings": {
+            "enableOmniChannel": true,
+            "enableOmniSkillsRouting": true
+        }
+    }
+}

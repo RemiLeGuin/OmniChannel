@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <label>Réclamations</label>
+        <name>Support_Complaints</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Grands Comptes</label>
+        <name>Support_MajorAccounts</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Marchés Publics</label>
+        <name>Support_PublicDeals</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Restitutions</label>
+        <name>Support_Restitutions</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Prestations</label>
+        <name>Support_Services</name>
+    </recordTypes>
+</CustomObjectTranslation>

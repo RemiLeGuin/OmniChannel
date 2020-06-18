@@ -1,0 +1,22 @@
+{
+    "packageDirectories": [
+        {
+            "path": "omni-channel",
+            "default": true,
+            "package": "Omni-Channel",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "uncovered",
+            "default": false
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "49.0",
+    "packageAliases": {
+        "Omni-Channel": "0HoB0000000GmsdKAC",
+        "Omni-Channel@0.1.0-1": "04tB0000000crf0IAA"
+    }
+}

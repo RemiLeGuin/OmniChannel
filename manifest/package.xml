@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Support</members>
+        <name>PresenceUserConfig</name>
+    </types>
+    <types>
+        <members>Support_Complaints_Assigned</members>
+        <members>Support_Complaints_Unassigned</members>
+        <members>Support_MajorAccounts_Unassigned</members>
+        <members>Support_PublicDeals_Assigned</members>
+        <members>Support_PublicDeals_Unassigned</members>
+        <members>Support_Restitutions_Assigned</members>
+        <members>Support_Restitutions_Unassigned</members>
+        <members>Support_Services_Assigned</members>
+        <members>Support_Services_Unassigned</members>
+        <name>Queue</name>
+    </types>
+    <types>
+        <members>Support_Complaints</members>
+        <members>Support_PublicDeals</members>
+        <members>Support_Restitutions</members>
+        <members>Support_Services</members>
+        <name>QueueRoutingConfig</name>
+    </types>
+    <types>
+        <members>Support</members>
+        <name>ServiceChannel</name>
+    </types>
+    <types>
+        <members>Available</members>
+        <members>Busy</members>
+        <name>ServicePresenceStatus</name>
+    </types>
+    <version>49.0</version>
+</Package>
