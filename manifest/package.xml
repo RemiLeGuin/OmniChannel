@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Support</members>
+        <members>OmniChannel</members>
         <name>PresenceUserConfig</name>
     </types>
     <types>
-        <members>Support_Complaints_Assigned</members>
-        <members>Support_Complaints_Unassigned</members>
-        <members>Support_MajorAccounts_Unassigned</members>
-        <members>Support_PublicDeals_Assigned</members>
-        <members>Support_PublicDeals_Unassigned</members>
-        <members>Support_Restitutions_Assigned</members>
-        <members>Support_Restitutions_Unassigned</members>
-        <members>Support_Services_Assigned</members>
-        <members>Support_Services_Unassigned</members>
+        <members>OC_Complaints_Assigned</members>
+        <members>OC_Complaints_Unassigned</members>
+        <members>OC_MajorAccounts_Unassigned</members>
+        <members>OC_PublicDeals_Assigned</members>
+        <members>OC_PublicDeals_Unassigned</members>
+        <members>OC_Restitutions_Assigned</members>
+        <members>OC_Restitutions_Unassigned</members>
+        <members>OC_Services_Assigned</members>
+        <members>OC_Services_Unassigned</members>
         <name>Queue</name>
     </types>
     <types>
-        <members>Support_Complaints</members>
-        <members>Support_PublicDeals</members>
-        <members>Support_Restitutions</members>
-        <members>Support_Services</members>
+        <members>OC_Complaints</members>
+        <members>OC_PublicDeals</members>
+        <members>OC_Restitutions</members>
+        <members>OC_Services</members>
         <name>QueueRoutingConfig</name>
     </types>
     <types>
-        <members>Support</members>
+        <members>OmniChannel</members>
         <name>ServiceChannel</name>
     </types>
     <types>
