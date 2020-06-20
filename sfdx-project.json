@@ -17,6 +17,7 @@
     "sourceApiVersion": "49.0",
     "packageAliases": {
         "Omni-Channel": "0HoB0000000GmsdKAC",
-        "Omni-Channel@0.1.0-1": "04tB0000000crf0IAA"
+        "Omni-Channel@0.1.0-1": "04tB0000000crf0IAA",
+        "Omni-Channel@0.1.0-2": "04tB0000000crnQIAQ"
     }
 }

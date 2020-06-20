@@ -2,22 +2,22 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <recordTypes>
         <label>Réclamations</label>
-        <name>Support_Complaints</name>
+        <name>OC_Complaints</name>
     </recordTypes>
     <recordTypes>
         <label>Grands Comptes</label>
-        <name>Support_MajorAccounts</name>
+        <name>OC_MajorAccounts</name>
     </recordTypes>
     <recordTypes>
         <label>Marchés Publics</label>
-        <name>Support_PublicDeals</name>
+        <name>OC_PublicDeals</name>
     </recordTypes>
     <recordTypes>
         <label>Restitutions</label>
-        <name>Support_Restitutions</name>
+        <name>OC_Restitutions</name>
     </recordTypes>
     <recordTypes>
         <label>Prestations</label>
-        <name>Support_Services</name>
+        <name>OC_Services</name>
     </recordTypes>
 </CustomObjectTranslation>
