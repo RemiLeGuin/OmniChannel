@@ -36,5 +36,9 @@
         <members>OmniChannel</members>
         <name>Settings</name>
     </types>
+    <types>
+        <members>OC_Test</members>
+        <name>Skill</name>
+    </types>
     <version>49.0</version>
 </Package>

@@ -11,3 +11,9 @@
 5. Create test users with the right profiles and roles.
 6. Assign the OC_Agent permission set to these users
 7. Assign the OC_SkillManagement to your admin user or any user who need it.
+
+## New package version
+
+```
+sfdx force:package:version:create --definitionfile config/project-scratch-def.json --package "Omni-Channel" --path omni-channel --apiversion 49.0 --installationkeybypass --wait 10 --codecoverage --releasenotesurl "https://github.com/RemiLeGuin/OmniChannel"
+```

@@ -1,8 +1,8 @@
 trigger OC_CaseAfterUpdate on Case (after update) {
     Callable ocCaseUtilitiesClass = Type.forName('OC_CaseUtilities') == null ? null :
                                     (Callable)Type.forName('OC_CaseUtilities').newInstance();
-    Callable ocCaseRoutingHandlerClass = Type.forName('OC_CaseRoutingHandler') == null ? null :
-                                         (Callable)Type.forName('OC_CaseRoutingHandler').newInstance();
+    Callable ocCaseSkillsBasedRoutingHandlerClass = Type.forName('OC_CaseSkillsBasedRoutingHandler') == null ? null :
+                                                    (Callable)Type.forName('OC_CaseSkillsBasedRoutingHandler').newInstance();
     List<Case> publicDealsCases = new List<Case> ();
     if (ocCaseUtilitiesClass != null) {
         Map<String, Group> queuesByDeveloperNames = (Map<String, Group>)ocCaseUtilitiesClass.call('OC_QUEUESBYDEVELOPERNAME', null);
@@ -15,7 +15,7 @@ trigger OC_CaseAfterUpdate on Case (after update) {
             }
         }
     }
-    if (!publicDealsCases.isEmpty() && ocCaseRoutingHandlerClass != null) {
-        ocCaseRoutingHandlerClass.call('createPublicDealsPendingServiceRouting', new Map<String, Object> { 'cases' => publicDealsCases });
+    if (!publicDealsCases.isEmpty() && ocCaseSkillsBasedRoutingHandlerClass != null) {
+        ocCaseSkillsBasedRoutingHandlerClass.call('createPublicDealsPendingServiceRouting', new Map<String, Object> { 'cases' => publicDealsCases });
     }
 }
