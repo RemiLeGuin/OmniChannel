@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>OC_CaseAfterInsert_Test</members>
+        <members>OC_CaseAfterUpdate_Test</members>
+        <members>OC_CaseSkillsBasedRoutingHandler</members>
+        <members>OC_CaseUtilities</members>
+        <members>OC_SkillAfterInsert_Test</members>
+        <members>OC_SkillAfterUpdate_Test</members>
+        <members>OC_SkillCallouts</members>
+        <members>OC_SkillCallouts_Mock</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>OC_CaseAfterInsert</members>
+        <members>OC_CaseAfterUpdate</members>
+        <members>OC_SkillAfterInsert</members>
+        <members>OC_SkillAfterUpdate</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
         <members>OmniChannel</members>
         <name>PresenceUserConfig</name>
     </types>
