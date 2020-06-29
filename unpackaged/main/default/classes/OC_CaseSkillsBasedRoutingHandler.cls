@@ -43,7 +43,7 @@ public with sharing class OC_CaseSkillsBasedRoutingHandler implements Callable {
                 if (SKILLSBYLABEL.get(cs.Reason) != null) {
                     SkillRequirement skillReq = new SkillRequirement(RelatedRecordId = pendingServiceRoutingsByCaseId.get(cs.Id).Id,
                                                                      SkillId = SKILLSBYLABEL.get(cs.Reason).Id,
-                                                                     SkillLevel = 5
+                                                                     SkillLevel = 1
                                                                     );
                     skillRequirements.add(skillReq);
                     pendingServiceRoutingsByCaseId.get(cs.Id).IsReadyForRouting = true;
@@ -104,7 +104,7 @@ public with sharing class OC_CaseSkillsBasedRoutingHandler implements Callable {
     }
 
     /**
-     * @description Get QueueRoutingConfig .
+     * @description Get QueueRoutingConfigs by developer names.
      * @param developerNameWildcard Developer name for one or several QueueRoutingConfigs using wildcard, to use in a 'LIKE' SOQL clause. If null, returns all QueueRoutingConfigs.
      * @return A map of QueueRoutingConfigs by developer name.
      */
